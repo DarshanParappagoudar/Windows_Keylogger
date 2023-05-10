@@ -1,0 +1,2 @@
+"svchost.exe", "winlogon.exe", "wininit.exe", "explorer.exe", "ctfmon.exe", "dwm.exe",                       "taskhost.exe", "logonui.exe", "conhost.exe", "spoolsv.exe", "wsc_proxy.exe", "nvtray.exe",                       "mobsync.exe", "System Idle Process"
+
