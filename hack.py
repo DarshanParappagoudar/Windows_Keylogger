@@ -58,7 +58,7 @@ def send_mail():
     body = MIMEText(content, 'plain')
     msg.attach(body)
 
-    filename = 'hackerrupt.txt'
+    filename = 'log.txt'
     with open(filename, 'r') as f:
         part = MIMEApplication(f.read(), Name=basename(filename))
         part['Content-Disposition'] = 'attachment; filename="{}"'.format(basename(filename))
