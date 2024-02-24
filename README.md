@@ -1,4 +1,5 @@
 Python Keylogger
+
 This Python program serves as a basic keylogger that logs keystrokes and sends them via email. It runs in the background, capturing all keyboard input and storing it in a log file. Additionally, it emails the log file periodically to a specified email address.
 
 Features --
