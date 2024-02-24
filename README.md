@@ -13,8 +13,7 @@ Windows operating system
 Git installed and added to PATH
 Python 3.x installed
 
-Run the script:
-
+To run the script:
 Double-click the batch script file (setup.bat) to execute it.
 Alternatively, run the script from the command line:
 "setup.bat"
