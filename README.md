@@ -27,7 +27,7 @@ Usage--
 Modify the send_mail() function with your email credentials and recipient email address.
 
 Run the script:
-python keylogger.py
+python logger.py
 
 The keylogger will start running in the background, logging all keystrokes.
 Press Esc key to stop the keylogger. The log file will be saved as log.txt in the project directory.
