@@ -1,5 +1,5 @@
 Windows Keylogger Setup Script
-This Windows batch script automates the process of setting up a keylogger by adding a Python script to the Windows Startup folder. The Python script (hack.py) logs keystrokes and sends them via email.
+This Windows batch script automates the process of setting up a keylogger by adding a Python script to the Windows Startup folder. The Python script logs keystrokes and sends them via email.
 
 Features
 Automates the setup process for deploying a keylogger
