@@ -23,3 +23,6 @@ Upon system restart, the keylogger script will start automatically, logging keys
 
 Important Note
 Security: Exercise caution when using this tool, as keyloggers can be considered malicious software. Ensure you have appropriate permissions to monitor keyboard input, and use it responsibly and legally.
+
+
+
