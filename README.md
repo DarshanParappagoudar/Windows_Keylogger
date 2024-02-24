@@ -15,7 +15,7 @@ Allow less secure apps in your Gmail settings if you're using Gmail as the sende
 
 Installation -- 
 Clone this repository to your local machine:
-git clone https://github.com/your_username/keylogger.git
+git clone https://github.com/DarshanParappagoudar/Project_Keylogger.git
 
 Navigate to the project directory:
 cd keylogger
