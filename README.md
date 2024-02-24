@@ -1,37 +1,25 @@
-Python Keylogger
+Windows Keylogger Setup Script
+This Windows batch script automates the process of setting up a keylogger by adding a Python script to the Windows Startup folder. The Python script (hack.py) logs keystrokes and sends them via email.
 
-This Python program serves as a basic keylogger that logs keystrokes and sends them via email. It runs in the background, capturing all keyboard input and storing it in a log file. Additionally, it emails the log file periodically to a specified email address.
-
-Features --
-Logs all keystrokes (including special keys)
-Stores keystrokes in a local log file (log.txt)
-Sends log file via email
+Features
+Automates the setup process for deploying a keylogger
+Clones the keylogger script from a specified GitHub repository
+Adds the keylogger script to the Windows Startup folder for persistent execution
+Logs keystrokes and sends them via email
 
 Requirements --
-Python 3.x
-pynput library: Used to monitor keyboard input
-smtplib library: Used to send emails
-An email account for sending and receiving logs
-Allow less secure apps in your Gmail settings if you're using Gmail as the sender
-
-Installation -- 
-Clone this repository to your local machine:
-git clone https://github.com/DarshanParappagoudar/Project_Keylogger.git
-
-Navigate to the project directory:
-cd keylogger
-
-Install the required Python libraries:
-pip install -r requirements.txt
-
-Usage--
-Modify the send_mail() function with your email credentials and recipient email address.
+Windows operating system
+Git installed and added to PATH
+Python 3.x installed
 
 Run the script:
-python logger.py
 
-The keylogger will start running in the background, logging all keystrokes.
-Press Esc key to stop the keylogger. The log file will be saved as log.txt in the project directory.
+Double-click the batch script file (setup.bat) to execute it.
+Alternatively, run the script from the command line:
+"setup.bat"
+The script will clone the specified GitHub repository into a temporary directory, copy the Python keylogger script to the Windows Startup folder, and clean up the temporary directory.
+
+Upon system restart, the keylogger script will start automatically, logging keystrokes and sending them via email.
 
 Important Note
-Security: Be cautious while using this tool, as keyloggers can be considered malicious software. Ensure you have appropriate permissions to monitor keyboard input, and only use it for lawful purposes.
+Security: Exercise caution when using this tool, as keyloggers can be considered malicious software. Ensure you have appropriate permissions to monitor keyboard input, and use it responsibly and legally.
